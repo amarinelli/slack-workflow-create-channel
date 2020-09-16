@@ -1,0 +1,23 @@
+{
+  "name": "slack-workflow-create-channel",
+  "version": "1.0.0",
+  "description": "Create channel and invite user(s) workflow steps",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config index.js",
+    "start": "node -r dotenv/config index.js"
+  },
+  "keywords": [
+    "slack",
+    "workflow-step"
+  ],
+  "author": "Adam Marinelli",
+  "license": "MIT",
+  "dependencies": {
+    "@slack/bolt": "feat-workflow-steps",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
